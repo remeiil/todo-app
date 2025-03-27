@@ -1,9 +1,9 @@
 :root {
-    --dark-background: #300d14;
-    --secondary: #8f3545;
+    --dark-background: #230d30;
+    --secondary: #82358f;
     --yellow: #ffd988;
     --darkyellow: #ffd98857;
-    --darkbrown: #432000;
+    --darkbrown: #310043;
     --green-highlight: rgb(94, 234, 212);
     --green-background: rgb(94, 234, 212, 0.2);
     --white-highlight: rgba(255, 248, 241, 1.0);
@@ -29,6 +29,9 @@ h1 {
 nav {
     display: flex;
     justify-content: space-evenly;
+}
+abbr {
+    text-decoration: none;
 }
 .tab-button {
     color: var(--white-highlight);
