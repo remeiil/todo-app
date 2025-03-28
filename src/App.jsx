@@ -14,13 +14,13 @@ function App() {
   // ]
 
   const [todos, setTodos] = useState([
-    { input: 'Hello! Add your first todo!', taskDuration: '5 mins', taskCategory:['PC', 'Learning'] , complete: true }
+    { input: 'Hello! Add your first todo!', taskDuration: '5 mins', taskDuedate: '1970/01/01 00:01', taskCategory:['PC', 'Learning'] , complete: true }
   ])
 
   const [selectedTab, setSelectedTab] = useState('Open')
 
-  function handleAddTodo(newTodo, newDuration, newCategory) {
-    const newTodoList = [...todos, { input: newTodo, taskDuration: newDuration, taskCategory:newCategory , complete: false }]
+  function handleAddTodo(newTodo, newDuration, newDuedate, newCategory) {
+    const newTodoList = [...todos, { input: newTodo, taskDuration: newDuration, taskDuedate: newDuedate, taskCategory:newCategory , complete: false }]
     setTodos(newTodoList)
     handleSaveData(newTodoList)
   }
