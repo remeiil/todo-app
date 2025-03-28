@@ -14,7 +14,7 @@ function App() {
   // ]
 
   const [todos, setTodos] = useState([
-    { input: 'Hello! Add your first todo!', taskDuration: '5 mins', taskDuedate: '1970/01/01 00:01', taskCategory:['PC', 'Learning'] , complete: true }
+    { input: 'Hello! Add your first todo!', taskDuration: '5 mins', taskDuedate: '1970/01/01 00:01', taskCategory:'Learning', complete: true }
   ])
 
   const [selectedTab, setSelectedTab] = useState('Open')

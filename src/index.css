@@ -144,20 +144,6 @@ i:hover {
     background: none;
     margin-left: auto;
 }
-.categories {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-.categories p {
-    background: var(--yellow);
-    border-radius: 0.5rem;
-    color: var(--darkbrown);
-    padding: 0.25rem 0.75rem;
-}
-.categories p:hover {
-    transform: scale(1.05);
-}
 footer {
     padding-top: 1rem;
     max-width: 1200px;

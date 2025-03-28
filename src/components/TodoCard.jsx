@@ -30,14 +30,13 @@ export function TodoCard(props) {
                     <div className="taskExpandable">
                         <p>Estimated Duration:</p><p> <strong>{todo.taskDuration}</strong></p>
                         <p>Due Date:</p><p> <strong>{todo.taskDuedate}</strong></p>
+                        <p>Category:</p><p> <strong>{todo.taskCategory}</strong></p>
                     </div>
                 )
             }
             
             <div className="taskFooter">
-                <div className="categories">
-                    <abbr title={"Category: " + todo.taskCategory}><p>{todo.taskCategory}</p></abbr>
-                </div>
+                <div> </div>
                 {
                     (!isExpanded ?
                         <button onClick={() => {
