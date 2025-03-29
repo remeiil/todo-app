@@ -58,13 +58,16 @@ i {
 i:hover {
     opacity: 1;
 }
+.mainInput {
+    grid-row: 1 / span 2;
+}
 .mainInput form{
     display: flex;
     flex-direction: column;
     padding: 1rem 0;
     gap: 0.25rem;
 }
-.mainInput input {
+.mainInput input, .mainInput select {
     background: var(--white-highlight);
     border: var(--dark-background) solid 3px;
     border-radius: 0.5rem;
@@ -81,7 +84,7 @@ i:hover {
 .mainInput button:focus {
     transform: translateY(3px);
 }
-.mainInput input, .mainInput button {
+.mainInput input, .mainInput button, .mainInput select {
     border-radius: 0.4rem;
     padding: 0.5rem;
 }
