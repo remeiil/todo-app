@@ -29,6 +29,8 @@ h1 {
 nav {
     display: flex;
     justify-content: space-evenly;
+    margin: auto;
+    max-width: 1200px;
 }
 abbr {
     text-decoration: none;
